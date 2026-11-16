@@ -13,3 +13,6 @@ python -m pip install -e .
 ```python
 from greet_community import greet
 ```
+
+- Check: `python -c "from greet_community import greet; print(greet('Hee'))"`
+- Expected output: `Hello, Hee!`
